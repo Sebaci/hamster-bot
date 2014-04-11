@@ -1,0 +1,49 @@
+---
+bicie:
+- .bicie [d{1-4}]
+- Pokazuje status zbiórki
+s:
+- .s [d{1-4[,...]}] [(komunikat)]
+- Slap na wszystkich lub wybrane divy
+div:
+- .div {1-4|-}
+- Ustawia Twój div na zbiórki
+rozkaz:
+- .rozkaz d{1-4[,...]} {(liczba)|allin|zamyka|otwiera|brak}
+- Ustawia rozkaz dla wybranych divów
+razem:
+- .razem
+- Wyświetla wydane do tej pory (łącznie) rozkazy
+bitwa:
+- .bitwa (link)
+- Wyświetla lub ustawia link do bitwy
+strona:
+- .strona (opis)
+- Wyświetla lub ustawia stronę, po której bijemy
+dodaj:
+- .dodaj (komenda) (treść)
+- Dodaje nową komendę
+usun:
+- .usun (komenda)
+- Usuwa komendę
+egov:
+- .egov [(egov)]
+- Wyświetla lub ustawia link do eGova
+oblicz:
+- .oblicz (wyrażenie)
+- Oblicza wartość podanego wyrażenia
+seen:
+- .seen (nick)
+- Pokazuje kiedy ostatnio widziano dany nick
+rozkazymon:
+- .rozkazymon [on|off]
+- Pokazuje lub zmienia tryb przekazywania rozkazów MON
+davila:
+- .davila [#{1-420}|(szukany fragment)]
+- Losuje, wyszukuje lub zwraca konkretne scholium Davili
+pomoc:
+- .pomoc [(komenda)]
+- Pomoc dot. komend
+ver:
+- .ver
+- Pokazuje wersję Hamstera
